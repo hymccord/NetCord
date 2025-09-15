@@ -269,3 +269,6 @@ dotnet_style_parentheses_in_other_operators = never_if_unnecessary:suggestion
 
 [**/JsonModels{/**,}/Json*.cs]
 dotnet_diagnostic.CS8618.severity = none
+
+[*.csproj]
+indent_size = 2

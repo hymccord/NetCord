@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NetCord.Test.Hosting": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Logging:LogLevel:Default": "Debug"
+      }
+    }
+  }
+}

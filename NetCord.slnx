@@ -1,4 +1,9 @@
 <Solution>
+  <Folder Name="/Analyzers/">
+    <Project Path="Analyzers/NetCord.Services.Analyzers.CodeFixes/NetCord.Services.Analyzers.CodeFixes.csproj" />
+    <Project Path="Analyzers/NetCord.Services.Analyzers.Package/NetCord.Services.Analyzers.Package.csproj" />
+    <Project Path="Analyzers/NetCord.Services.Analyzers/NetCord.Services.Analyzers.csproj" />
+  </Folder>
   <Folder Name="/Documentation/">
     <File Path="Documentation/.editorconfig" />
     <File Path="Documentation/Directory.Build.props" />
@@ -84,6 +89,7 @@
     <File Path="Tests/Directory.Build.targets" />
     <Project Path="Tests/ColorTest/ColorTest.csproj" />
     <Project Path="Tests/MentionTest/MentionTest.csproj" />
+    <Project Path="Tests/NetCord.Services.Analyzers.Test/NetCord.Services.Analyzers.Test.csproj" />
     <Project Path="Tests/NetCord.Test.Hosting.AspNetCore/NetCord.Test.Hosting.AspNetCore.csproj" />
     <Project Path="Tests/NetCord.Test.Hosting/NetCord.Test.Hosting.csproj" />
     <Project Path="Tests/NetCord.Test.Sharded.Hosting/NetCord.Test.Sharded.Hosting.csproj" />

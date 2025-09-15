@@ -32,4 +32,19 @@
     </None>
   </ItemGroup>
 
+	<ItemGroup>
+		<AnalyzerProjectReference Include="..\..\Analyzers\NetCord.Services.Analyzers\NetCord.Services.Analyzers.csproj" />
+		<AnalyzerProjectReference Include="..\..\Analyzers\NetCord.Services.Analyzers.CodeFixes\NetCord.Services.Analyzers.CodeFixes.csproj" />
+		<ProjectReference Include="@(AnalyzerProjectReference)">
+			<ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+			<OutputItemType>AnalyzerAssembly</OutputItemType>
+		</ProjectReference>
+	</ItemGroup>
+
+	<Target Name="ConsumeAnalyzersDirectly" AfterTargets="ResolveProjectReferences">
+		<ItemGroup>
+			<Analyzer Include="%(AnalyzerAssembly.Identity)" />
+		</ItemGroup>
+	</Target>
+	
 </Project>

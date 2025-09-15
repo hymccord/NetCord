@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "NetCord.Test": {
+      "commandName": "Project",
+      "environmentVariables": {
+      }
+    }
+  }
+}
